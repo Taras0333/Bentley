@@ -84,3 +84,75 @@ header{
 .header-right-items:hover{
 	color: gray;
 }
+.slide{
+	position: relative;
+}
+.slide1-wrap {
+    position: absolute;
+    left: 855px;
+    top: 270px;
+    width: 453px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation-name: fade;
+    animation-duration: 5s;
+  	animation-delay: 0s;
+  	animation-timing-function: ease;
+}
+@keyframes fade {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slide1-tittle, .slide1-disc{
+	color: white;
+	font-family: Helvetica;
+}
+.slide1-tittle{
+	letter-spacing: 0.5mm;
+	font-size: 30px;
+}
+.slide1-disc{
+	letter-spacing: 0.2mm;
+	font-size: 15px;
+}
+.slide1-btn1{
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #355c4d;
+	color: white;
+	letter-spacing: 0.2mm;
+}
+.slide1-btn1:hover{
+	color: white;
+	background-color: transparent;
+	font-weight: bold;
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+	-moz-box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+	box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+}
+.slide1-btn2{
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	letter-spacing: 0.2mm;
+	margin-top: 15px;
+}
+.slide1-btn2:hover{
+	-webkit-box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+	-moz-box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+	box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
+	opacity: 0.8;
+	color: black;
+	border: 1px solid black;
+	font-weight: 600;
+}
