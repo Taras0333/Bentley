@@ -89,7 +89,7 @@ header{
 }
 .slide1-wrap {
     position: absolute;
-    left: 855px;
+    right: 70px;
     top: 270px;
     width: 453px;
     height: 334px;
@@ -112,6 +112,7 @@ header{
 .slide-tittle, .slide-disc{
 	color: white;
 	font-family: Helvetica;
+	width: 80%;
 }
 .slide-tittle{
 	letter-spacing: 0.5mm;
@@ -122,7 +123,7 @@ header{
 	font-size: 15px;
 }
 .slide-btn1{
-	width: 100%;
+	width: 85%;
 	height: 50px;
 	border: none;
 	background-color: #355c4d;
@@ -139,7 +140,7 @@ header{
 	box-shadow: 0px 3px 29px 8px rgba(17,17,18,0.84);
 }
 .slide-btn2{
-	width: 100%;
+	width: 85%;
 	height: 50px;
 	border: 1px solid white;
 	background-color: transparent;
@@ -158,7 +159,7 @@ header{
 }
 .slide2-wrap {
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: 270px;
     width: 453px;
     height: 334px;
@@ -175,7 +176,7 @@ header{
 }
 .slide3-wrap {
     position: absolute;
-    left: 140px;
+    left: 150px;
     top: 270px;
     width: 453px;
     height: 334px;
@@ -189,7 +190,7 @@ header{
 }
 .slide4-wrap {
     position: absolute;
-    left: 830px;
+    right: 70px;
     top: 240px;
     width: 453px;
     height: 334px;
@@ -203,7 +204,7 @@ header{
 }
 .slide5-wrap {
     position: absolute;
-    left: 860px;
+    right: 70px;
     top: 270px;
     width: 453px;
     height: 334px;
@@ -214,4 +215,95 @@ header{
     animation-duration: 5s;
   	animation-delay: 0s;
   	animation-timing-function: ease;
+}
+.owner-section-wrap{
+	width: 100%;
+	height: 360px;
+	display: flex;
+}
+.owner-section1{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	background-image: url(./images/men-dress.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.owner-section2{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	background-image: url(./images/woman.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.owners{
+	width: 130px;
+	height: 30px;
+	display: flex;
+	background-color: white;
+	opacity: 0.8;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-family: Helvetica;
+	letter-spacing: 0.2mm;
+}
+.owners:hover{
+	transition: 1s ease;
+	width: 150px;
+}
+.pre-owned{
+	width: 170px;
+	height: 30px;
+	display: flex;
+	background-color: white;
+	opacity: 0.8;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-family: Helvetica;
+	letter-spacing: 0.2mm;
+}
+.pre-owned:hover{
+	transition: 1s ease;
+	width: 190px;
+}
+.menu{
+	width: 100%;
+	height: 120px;
+	display: flex;
+	background-color: #e6eae9;
+	justify-content: center;
+}
+.menu-brack{
+	width: 22%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.menu-brack:hover{
+	opacity: 0.6;
+}
+.menu-brack:nth-child(1n+1){
+	border-right: 1px solid gray;
+}
+.menu-brack:nth-child(1){
+	border-left: 1px solid gray;
+}
+.menu-items{
+	font-family: Helvetica;
+	letter-spacing: 0.2mm;
+	font-size: 12px;
+	font-weight: 700;
+	color: black;
+	margin-top: 8px;
+}
+.menu-icon{
+	width: 6%;
 }
