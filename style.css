@@ -3,6 +3,57 @@ html, body{
 	height: 100vh;
 	overflow-x: hidden;
 }
+/* .invit-wrap{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+	animation-name: invitation;
+    animation-duration: 6s;
+  	animation-delay: 2s;
+  	animation-timing-function: ease;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+  	background-image: url(./images/bbent2.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+@keyframes invitation{
+	from{
+		visibility: visible;
+	}
+	to{
+		visibility: hidden;
+		z-index: 0;
+		
+	}
+}
+
+.invit{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	opacity: 0.8;
+	z-index: 3;
+	animation-name: invitat;
+    animation-duration: 6s;
+  	animation-delay: 2s;
+  	animation-timing-function: cubic-bezier(0.1, -0.01, 0.76, 0.25);
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+}
+@keyframes invitat{
+	from{
+		visibility: visible;
+	}
+	to{
+		visibility: hidden;
+		z-index: 0;
+
+	}
+} */
 header{
 	width: 100%;
 	height: 100px;
@@ -10,6 +61,7 @@ header{
 	padding-left: 80px;
 	padding-right: 80px;
 	justify-content: space-between;
+	z-index: 1;
 }
 .header-left{
 	display: flex;
@@ -39,7 +91,7 @@ header{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #3e3e3e;
+    color: #7b7474;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -54,15 +106,16 @@ header{
 	margin-bottom: 5px;
 	margin-right: 50px;
 	cursor: pointer;
+	border-color: #7b7474;
 }
 .arrow-icon:last-child{
 	margin-right: 0px;
 }
 .header-mid-items:hover{
-	color: gray;
+	color: #355c4d;
 } 
 .arrow-icon:hover{
-	border-color: gray;
+	border-color: #355c4d;
 }
 .header-right{
 	display: flex;
@@ -74,7 +127,7 @@ header{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #3e3e3e;
+    color: #7b7474;
     margin-right: 30px;
     cursor: pointer;
 }
@@ -82,10 +135,13 @@ header{
 	margin-right: 0px;
 }
 .header-right-items:hover{
-	color: gray;
+	color: #355c4d;
 }
 .slide{
 	position: relative;
+}
+.sld{
+	z-index: 1;
 }
 .slide1-wrap {
     position: absolute;
@@ -306,4 +362,143 @@ header{
 }
 .menu-icon{
 	width: 6%;
+}
+.bottom-menu-wrap{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+}
+.bottom-menu{
+	width: 95%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	margin-left: 20px;
+	padding-top: 30px;
+}
+.bot-men{
+	width: 23%;
+	height: 100%; 
+	display: flex;
+	flex-direction: column;
+}
+.bot-menu-header{
+	font-family: Helvetica;
+	font-size: 16px;
+	letter-spacing: 0.2mm;
+	font-weight: 700;
+	color: #727376;
+}
+.bot-menu-disc{
+	font-family: Helvetica;
+	font-size: 15px;
+	letter-spacing: 0.2mm;
+	color: black;
+	font-weight: 100;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.bot-menu-disc:hover{
+	color: #355c4d;
+}
+.media-section-wrap{
+	width: 100%;
+	height: 20%;
+	display: flex;
+
+}
+.med-sec{
+	width: 350px;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+}
+.bottom-img{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.facebook{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.twitter{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.youtube{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.pinterest{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.insta{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-menu{
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid grey;
+	padding-top: 40px;
+}
+.footer-items{
+	cursor: pointer;
+	font-family: Helvetica;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 0.2mm;
+}
+.footer-items:hover{
+	color: #355c4d;
+}
+select{
+	border-radius: 6px;
+	background-color: #d2d2d2;
+	border: none;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 14px;
+	background-color: #fffdfd;
+}
+select:hover{
+	color: #355c4d;
+}
+.licence-wrap{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: auto;
+	padding-left: 40px;
+}
+.licence{
+	font-family: Helvetica;
+	font-size: 10px;
+	align-self: flex-start;
+	opacity: 0.8;
+}
+.headquoter{
+	font-family: Helvetica;
+	font-size: 10px;
+	align-self: flex-start;
+	opacity: 0.8;
 }
