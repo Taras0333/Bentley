@@ -1,0 +1,18 @@
+@media (max-width: 720px){
+	header{
+		justify-content: space-between;
+		padding-left: 10px;
+		padding-right: 40px;
+	}
+	.header-mid, .header-right{
+		display: none;
+	}
+	.menu-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 80px;
+		height: 30px;
+
+}
+}
