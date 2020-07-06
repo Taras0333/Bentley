@@ -1,4 +1,76 @@
-@media (max-width: 720px){
+@media (max-width: 1140px){
+	.slide1-wrap{
+		top: 215px;
+		width: 410px;
+	}
+	.slide2-wrap{
+		top: 215px;
+		width: 410px;
+	}
+	.slide3-wrap{
+		top: 215px;
+		width: 410px;
+	}
+	.slide4-wrap{
+		top: 215px;
+		width: 410px;
+	}
+	.slide5-wrap{
+		top: 215px;
+		width: 410px;
+	}
+}
+@media (max-width: 1048px){
+	.slide1-wrap{
+		top: 190px;
+		width: 410px;
+	}
+	.slide2-wrap{
+		top: 190px;
+		width: 410px;
+	}
+	.slide3-wrap{
+		top: 190px;
+		width: 410px;
+	}
+	.slide4-wrap{
+		top: 190px;
+		width: 410px;
+	}
+	.slide5-wrap{
+		top: 190px;
+		width: 410px;
+	}
+}
+@media (max-width: 996px){
+	.slide1-wrap, .slide2-wrap, .slide3-wrap, .slide4-wrap, .slide5-wrap{
+		display: none;
+	}
+	.mob-disc-tittle{
+		font-family: Helvetica;
+		font-size: 22px;
+		font-weight: 500;
+		letter-spacing: 0.2mm;
+		color: grey;
+		margin-bottom: 30px;
+	}
+	.mob-disc{
+		width: 100%;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-image: url(./images/bbent2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+	}
+	.slide-btn1, .slide-btn2{
+		width: 50%;
+	} 
+}
+@media (max-width: 924px){
 	header{
 		justify-content: space-between;
 		padding-left: 10px;
@@ -15,4 +87,23 @@
 		height: 30px;
 
 }
+}
+@media (max-width: 470px){
+	header{
+		height: 80px;
+		padding-right: 22px;
+	}
+	.bentley-logo{
+		width: 100px;
+	}
+	.logo-tittle{
+		font-size: 14px;
+	}
+	.menu-word{
+		font-size: 14px;
+	}
+	.menu-lines{
+		width: 18px;
+		height: 15px;
+	}
 }
