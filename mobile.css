@@ -122,6 +122,23 @@
 		height: 90px;
 	}
 }
+@media (max-width: 726px){
+	.bottom-menu{
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding-top: 0px;
+	}
+	.bot-menu-disc{
+		display: none;
+	}
+	.bot-men {
+    width: auto;
+    height: 20px;
+	}
+	.bot-menu-header{
+		font-size: 18px;
+	}
+}
 @media (max-width: 605px){
 	.menu{
 		flex-direction: column;
